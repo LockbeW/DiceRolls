@@ -44,7 +44,7 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "Dice Rolls Results"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "Dice Rolls"))
         self.checkButton.setText(_translate("MainWindow", "Check"))
 
     def diceRolls(self):
